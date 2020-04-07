@@ -49,6 +49,14 @@ def until_iterator(number_of_times)
   end
 end
 
+def number_of_times num
+  phrase = "Welcome to Flatiron School's Web Development Course!"
+  number_of_times(:each) do
+    puts phrase
+  end
+end
+
+
 def for_iterator(number_of_times)
   # code your solution here using the "for" keyword
   # remember that `for` requires a range of numbers. How can we turn our number into a range?
