@@ -49,11 +49,12 @@ def until_iterator(number_of_times)
   end
 end
 
-def number_of_times num
+def number_of_times times
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  number_of_times(:each) do
+
+  for t in times 
     puts phrase
-  end
+  end 
 end
 
 
