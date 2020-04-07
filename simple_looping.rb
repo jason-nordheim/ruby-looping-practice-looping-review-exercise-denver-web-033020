@@ -52,9 +52,9 @@ end
 def number_of_times times
   phrase = "Welcome to Flatiron School's Web Development Course!"
 
-  for t in times 
+  for t in times
     puts phrase
-  end 
+  end
 end
 
 
